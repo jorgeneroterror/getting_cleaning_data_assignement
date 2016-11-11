@@ -68,7 +68,7 @@ We have data from 6 different activities in which some vector directions are mor
 Thus, it is difficult to select one direction and rule out the rest. For this reason it seem reasonable to filter all the directions and select the magnitude value.
 Besides, with the magnitued we are taking into account all the 3 directions, so is more interesting in order to compare the average of differents features.
 
-###***The name of the variables**
+###**The name of the variables**
 
 We have almost answerd it in 'A brief description of the variables' section. Taking into account the descriptive name of the 5 cinematic variable, plus there are two domains (time and frecuency) and plus our judzgement when we filter the data, the name of our variable are:
 
@@ -112,12 +112,12 @@ We merge the data using merge(train,test,by.x='id',by.y='id',all.x  = TRUE,all.y
 the columns of activity and features are duplicated, filled with NAs where there is not an asigned value. What we want is to  eliminate half of this columns and put all the values in the other half. In other words 
 
 
-    / sub variable.x variable.y \     /  sub   variable \
-    |  1   0.4           Na     |     |   1      0.4    |
-  A=|  1   0.1           Na     |   B=|   1      0.1    |
-    |  2   Na           0.2     |     |   2      0.2    |
-    |  2   Na           0.8     |     |   2      0.8    |
-    \                          /      \                / 
+		    / sub variable.x variable.y \     /  sub   variable \
+		    |  1   0.4           Na     |     |   1      0.4    |
+		  A=|  1   0.1           Na     |   B=|   1      0.1    |
+		    |  2   Na           0.2     |     |   2      0.2    |
+		    |  2   Na           0.8     |     |   2      0.8    |
+		    \                          /      \                / 
 
 
 We have the situation of the matrix A and want the situation of the matrix B. In order to resolve the problem we use the following for loop:
