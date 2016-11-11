@@ -5,5 +5,5 @@ IMPORTANT! Before you run script you have to modify the 20th line. wd is a chara
 
 When you run the script it will create two folders.
 
-1.- 'UCI HAR Dataset' which contains all the data with which the program is going to work 
-2.- 'proyect' which contains one single file called 'averages.csv' which is a csv file with the average of each meassurement for each activity and suject. For more information read the codebook.md
+* 1.- 'UCI HAR Dataset' which contains all the data with which the program is going to work 
+* 2.- 'proyect' which contains one single file called 'averages.csv' which is a csv file with the average of each meassurement for each activity and suject. For more information read the codebook.md
